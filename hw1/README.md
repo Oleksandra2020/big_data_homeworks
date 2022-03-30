@@ -22,4 +22,4 @@ docker run hutor_hw1_image:1.0
 
 ## Result in console
 
-![result](/media/result.png)
+![result](https://github.com/Oleksandra2020/big_data_homeworks/blob/master/hw1/media/result.png)
