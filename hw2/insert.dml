@@ -1,0 +1,10 @@
+
+
+INSERT INTO favorite_songs (id, author, song_name, release_year) VALUES (0, 'The Beatles', 'Yesterday', 1965);
+INSERT INTO favorite_songs (id, author, song_name, release_year) VALUES (1, 'Paul Simon', 'Peace Like a River', 1972);
+
+INSERT INTO favorite_movies (id, name, producer, release_year) VALUES (0, 'The Green Mile', 'David Valdes', 1999);
+INSERT INTO favorite_movies (id, name, producer, release_year) VALUES (1, 'The Devil Wears Prada', 'Wendy Finerman', 2006);
+
+SELECT * FROM favorite_songs;
+SELECT * FROM favorite_movies;
