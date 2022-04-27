@@ -1,0 +1,15 @@
+
+SELECT review FROM product_counter
+WHERE product_id = value AND counter >= 0
+
+SELECT review FROM product_rating
+WHERE product_id = value1 AND star_rating = value2
+
+SELECT review FROM customer_rating
+WHERE customer_id = value AND star_rating >= 0
+
+SELECT customer_id FROM product_counter
+WHERE product_id = value AND counter > N
+
+SELECT COUNT(star_rating) FROM customer_rating
+WHERE customer_id = value AND star_rating > 3
