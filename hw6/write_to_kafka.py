@@ -1,6 +1,7 @@
 import csv
 import json
 import datetime
+import time
 
 from kafka import KafkaProducer
 
@@ -11,6 +12,8 @@ def send_tweets():
         csvfile = csv.reader(f)
         for row in csvfile:
         	producer.send("tweets", f"time: {datetime.datetime.now()}, tweet: {row[4]}")
+
+       	time.sleep(0.1)
 
     producer.flush()
 
