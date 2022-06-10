@@ -1,4 +1,3 @@
-import re
 from flask_restful import reqparse, Resource, Api
 from cassandra_client import CassandraClient
 from flask import Flask, request
@@ -19,7 +18,6 @@ parser.add_argument('star_rating', type=str, required=False)
 parser.add_argument('start_date', type=str, required=False)
 parser.add_argument('end_date', type=str, required=False)
 parser.add_argument('N', type=str, required=False)
-
 
 class RetrieveData(Resource):
 
