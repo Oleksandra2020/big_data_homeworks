@@ -1,0 +1,34 @@
+curl --header "Content-Type: application/json" \
+  --request GET \
+  --data '{"request_num":1,"product_id":"0385730586"}' \
+  http://0.0.0.0:8080/
+
+curl --header "Content-Type: application/json" \
+  --request GET \
+  --data '{"request_num":2,"product_id":"0385730586", "star_rating":4}' \
+  http://0.0.0.0:8080/
+
+curl --header "Content-Type: application/json" \
+  --request GET \
+  --data '{"request_num":3,"customer_id":"29732693"}' \
+  http://0.0.0.0:8080/
+
+curl --header "Content-Type: application/json" \
+  --request GET \
+  --data '{"request_num":4,"start_date":"2000-10-10", "end_date":"2022-10-10", "N":10}' \
+  http://0.0.0.0:8080/
+
+curl --header "Content-Type: application/json" \
+  --request GET \
+  --data '{"request_num":5,"start_date":"2000-10-10", "end_date":"2022-10-10", "N":10}' \
+  http://0.0.0.0:8080/
+
+curl --header "Content-Type: application/json" \
+  --request GET \
+  --data '{"request_num":6,"start_date":"2000-10-10", "end_date":"2022-10-10", "N":10}' \
+  http://0.0.0.0:8080/
+
+curl --header "Content-Type: application/json" \
+  --request GET \
+  --data '{"request_num":7,"start_date":"2000-10-10", "end_date":"2022-10-10", "N":10}' \
+  http://0.0.0.0:8080/
